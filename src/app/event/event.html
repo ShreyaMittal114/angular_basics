@@ -1,0 +1,17 @@
+<h2>events</h2>
+<input type ="text" (input) ="handlevent($event.type)"/>
+<input type ="text" (change) ="handlevent($event.type)"/>
+<select (change)="handlevent($event.type)">
+    <option value="">car</option>
+    <option value="">bike</option>
+    <option value="">mobile</option>
+</select>
+<input type ="text" (blur) ="handlevent($event.type)"/>
+<input type ="text" (focus) ="handlevent($event.type)"/>
+<div (mouseleave)="handlevent($event.type)" class="div1">
+
+</div>
+<div (mouseenter)="handlevent($event.type)" class="div2">
+    
+</div>
+
