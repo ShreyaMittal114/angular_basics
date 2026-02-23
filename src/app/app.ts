@@ -3,10 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { Profile } from './profile/profile';
 import { Event } from './event/event';
 import { DataType } from './data-type/data-type';
+import { PropertyBinding } from './property-binding/property-binding';
+import { Signals } from './signals/signals';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Profile,Event,DataType],
+  imports: [RouterOutlet,Profile,Event,DataType,PropertyBinding,Signals],
   templateUrl: './app.html',
   // template :`<h1> inline temp{{name}} </h1> `,  inline temp
   styleUrl: './app.css'

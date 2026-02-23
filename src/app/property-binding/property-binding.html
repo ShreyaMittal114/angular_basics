@@ -1,0 +1,7 @@
+<p>property-binding works!</p>
+<button [disabled]="buttondisable">Click Me</button>
+<button disabled="{{buttondisable}}">Click Me</button>
+<button (click)="toggle()">toggle</button>
+
+<input type="text" readonly="{{inputReadOnly}}">
+<input type="text" [readonly]="inputReadOnly">
